@@ -26,8 +26,9 @@ public class Employee {
     }
 
     public float getSalary() {
-        return this.salary;
-    }
+            return this.salary;
+        }
+
 
     public int getDepartment() {
         return this.departement;

@@ -19,12 +19,11 @@ public class Main {
 
 
 
-
-        EmployeesAction.EmployeesCout(Employees);
-        EmployeesAction.SumSalary(Employees);
-        EmployeesAction.MaxSalary(Employees);
-        EmployeesAction.MinSalary(Employees);
-        EmployeesAction.AvarageSalary(Employees);
+        EmployeesAction.employeesCout(Employees);
+        EmployeesAction.sumSalary(Employees);
+        EmployeesAction.maxSalary(Employees);
+        EmployeesAction.minSalary(Employees);
+        EmployeesAction.avarageSalary(Employees);
 
 
         Employees[2].setSalary(50000f);
@@ -32,11 +31,11 @@ public class Main {
         Employees[0].setFirstName("Владимир");
         Employees[2].setLastName("Олигарх");
 
-        EmployeesAction.EmployeesCout(Employees);
-        EmployeesAction.SumSalary(Employees);
-        EmployeesAction.MaxSalary(Employees);
-        EmployeesAction.MinSalary(Employees);
-        EmployeesAction.AvarageSalary(Employees);
+        EmployeesAction.employeesCout(Employees);
+        EmployeesAction.sumSalary(Employees);
+        EmployeesAction.maxSalary(Employees);
+        EmployeesAction.minSalary(Employees);
+        EmployeesAction.avarageSalary(Employees);
     }
 
 }
