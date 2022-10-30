@@ -36,6 +36,24 @@ public class Main {
         EmployeesAction.maxSalary(Employees);
         EmployeesAction.minSalary(Employees);
         EmployeesAction.avarageSalary(Employees);
+
+        //Повышеннаяя сложность
+        float percent=0.5f;
+        EmployeesAction.allPercentSalary(Employees,percent);
+        byte number=5;
+
+        EmployeesAction.departmentPeople(Employees,number);
+        EmployeesAction.departmentSalarySum(Employees,number);
+        EmployeesAction.departmentMaxSalary(Employees,number);
+        EmployeesAction.departmentMinSalary(Employees,number);
+        EmployeesAction.departmentAvarageSalary(Employees,number);
+        percent=0.2f;
+        EmployeesAction.departmentAddPercentSalary(Employees,number,percent);
+        float highSalary=20_000f;
+        EmployeesAction.compareHigherSalary(Employees,highSalary);
+        float lowSalary=10_000f;
+        EmployeesAction.compareLowerSalary(Employees,lowSalary);
+
     }
 
 }
