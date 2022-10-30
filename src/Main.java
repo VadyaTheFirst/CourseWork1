@@ -12,10 +12,10 @@ public class Main {
         Employees[3]=new Employee("Василий","Андреевич","ХХХ",200,5);
         Employees[4]=new Employee("Александр","Андреевич","УУУ",1000,1);
         Employees[5]=new Employee("Алеся","Николаевна","ЗаЗ",15000,4);
-        Employees[6]=new Employee("Василий","Андреевич","ХХу",1200,5);
+        Employees[6]=new Employee("Кирилл","Андреевич","ХХу",1200,5);
         Employees[7]=new Employee("Александр","Андреевич","УУУ",1000,1);
         Employees[8]=new Employee("Колян","Федорович","ЗЗЗ",12000,4);
-        Employees[9]=new Employee("Василий","Андреевич","ХХХ",1200,5);
+        Employees[9]=new Employee("Виктор","Андреевич","АХХА",1200,5);
 
 
 

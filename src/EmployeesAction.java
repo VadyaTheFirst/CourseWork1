@@ -11,10 +11,10 @@ public class EmployeesAction {
     }
 
     //Возможно, понадобиться узнать какие сотрудники имеют пустые поля (сотрудник уволился,или не был внесен, а идентификатор остался
-    public static void nullCout(Employee[] arr) {
+    public static void nullEmployeesCout(Employee[] arr) {
         for (byte i = 0; i < arr.length; i++) {
             if (arr[i] == null) {
-                throw new NullPointerException("Нет данных о сотруднике с идентификаторром " + i);
+                System.out.println("Нет данных о сотруднике с идентификаторром " + i);
             }
         }
     }
@@ -84,17 +84,15 @@ public class EmployeesAction {
 
     public static byte departmentPeopleCount(Employee[] arr, byte number) {
         byte k = 0;
-        if (number > 6 || number < 1) {
-            throw new IllegalArgumentException("Введен неверный отдел");
-        } else {
-
+        if (number < 6 || number > 0) {
             for (byte i = 0; i < arr.length; i++) {
                 if (arr[i].getDepartment() == number) {
                     k++;
                 }
             }
-        }
-        return k;
+        } else    {throw new IllegalArgumentException("Введен неверный отдел");
+    }
+            return k;
     }
 
     public static float departmentSalarySum(Employee[] arr, byte number) {
